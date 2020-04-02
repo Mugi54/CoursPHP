@@ -13,11 +13,11 @@ ob_start();
                 <th>Photo</th>
                 <th>Nom</th>
                 <th>Description</th>
-                <th>Action</th>
+                <th>Action</th>     
             </tr>
         </thead>
         <tbody>
-
+            <?php foreach ($destinations as $destination): ?>
         </tbody>
     </table>
 </div>
